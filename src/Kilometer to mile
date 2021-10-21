@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class KELOMETER_TO_MILES {
+    public static void main(String[] args) {
+        System.out.println("Enter the number in kilometre");
+        System.out.println("Enter the number");
+        Scanner Convert = new Scanner(System.in);
+        float KM = Convert.nextFloat();
+        float Miles = KM * 0.62131f;
+        System.out.println(KM + "KELOMETER IS EQUAL TO " + Miles + "MILES");
+    }}
